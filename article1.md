@@ -38,7 +38,7 @@ Sekian dari yang saya kerjakan, berikut merupakan lampiran kode-kode yang saya g
         dosen_tambahan = new_pi.dosen_tambahan.all()
         self.assertTrue(dosen2 in dosen_tambahan and dosen3 in dosen_tambahan)
    ```
-2. Kode penambahan attribute (contoh: Pi)
+2. Kode penambahan attribute
    ```
    ...
    dosen_tambahan = models.ManyToManyField(Dosen, null=True, blank=True)
