@@ -30,7 +30,7 @@ class Dosen(models.Model)
 Tahap-tahap yang akan dilakukan dalam pembuatan fungsi.
 1. **Membuat test**
    Dalam membuat unit test, pikirkan apa yang akan dibutuhkan dalam fungsi, contoh pada kasus ini parameter yang dibutuhkan adalam nama dan nip karena kedua hal tersebut merupakan data yang dibutuhkan untuk membuat instance Dosen dan contoh nilai return yang dapat digunakan adalah instance dari Dosen tersebut. Selain itu, pikirkan apa yang akan di-test untuk fungsi tersebut, pada kasus ini contohnya adalah testing *value* yang ada pada setiap attribute dari dosen. Berikut ini merupakan contoh kode testnya.
-   ***
+   ```
    class DosenTest(TestCase)
       def test_create_dosen(self):
          nama = "dosen"
@@ -38,17 +38,17 @@ Tahap-tahap yang akan dilakukan dalam pembuatan fungsi.
          dosen = createDosen(nama, nip)
          self.assertEquals(nama, dosen.nama)
          self.assertEquals(nip, dosen.nip)
-   ***
+   ```
    Setelah membuat test, lakukanlah `git push` untuk mem-*push kode* ke remote repository. Berikan tag [RED] pada commit message.
-   
-3. **Membuat kode**
+
+2. **Membuat kode**
    Setelah membuat test, rancanglah kode yang akan dibuat. Berikut ini merupakan contoh kode implementasi.
-   ***
+   ```
    def createDosen(nama, nip):
       dosen = Dosen.objects.create(nama, nip)
       dosen.save
       return dosen
-   ***
+   ```
    Setelah membuat kode, lakukanlah `git push` untuk mem-*push kode* ke remote repository. Berikan tag [GREEN] pada commit message apabila kode yang dibuat sudah berhasil menyukseskan test yang telah dibuat sebelumnya.
 
 Pengimplementasian metode TDD ini mungkin akan terasa sedikit sulit pada awalnya, tetapi jangan menyerah, terus mencoba, dan belajar dari kesalahan.
