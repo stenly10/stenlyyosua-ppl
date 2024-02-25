@@ -54,4 +54,4 @@ Tahap-tahap yang akan dilakukan dalam pembuatan fungsi.
 Pengimplementasian metode TDD ini mungkin akan terasa sedikit sulit pada awalnya, tetapi jangan menyerah, terus mencoba, dan belajar dari kesalahan.
 
 ## Referensi
-1. [Wiki PPL CS UI]("https://wiki.ppl.cs.ui.ac.id/doc/panduan-tdd-clean-code-HmM8qKI0yk")
+1. [Wiki PPL CS UI](https://wiki.ppl.cs.ui.ac.id/doc/panduan-tdd-clean-code-HmM8qKI0yk)
