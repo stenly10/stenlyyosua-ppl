@@ -45,7 +45,7 @@ Tahap-tahap yang akan dilakukan dalam pembuatan fungsi.
    Setelah membuat test, rancanglah kode yang akan dibuat. Berikut ini merupakan contoh kode implementasi.
    ```
    def createDosen(nama, nip):
-      dosen = Dosen.objects.create(nama, nip)
+      dosen = Dosen.objects.create(nama=nama, nip=nip)
       dosen.save
       return dosen
    ```
