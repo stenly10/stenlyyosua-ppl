@@ -36,8 +36,8 @@ Tahap-tahap yang akan dilakukan dalam pembuatan fungsi.
          nama = "dosen"
          nip = "1807829173"
          dosen = createDosen(nama, nip)
-         self.assertEquals(nama, dosen.nama)
-         self.assertEquals(nip, dosen.nip)
+         self.assertEqual(nama, dosen.nama)
+         self.assertEqual(nip, dosen.nip)
    ```
    Setelah membuat test, lakukanlah `git push` untuk mem-*push kode* ke remote repository. Berikan tag [RED] pada commit message.
 
