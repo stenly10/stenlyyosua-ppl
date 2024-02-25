@@ -5,11 +5,11 @@ Test-Driven Development merupakan salah-satu metode dalam pembuatan kode. Dalam 
 
 ## Proses-proses pada TDD
 Dalam pengimplementasian metode Test-Driven Development, terdapat proses-proses yang perlu dilakukan.
-   1. **Membuat test**
+   1. **Membuat test**, 
       Sebelum membuat kode, programmer akan membuat test untuk kode yang akan dibuat. Programmer memikirkan hal-hal yang dibutuhkan pada kode, membuat testnya, dan membuat kode untuk menyukseskan unit test. Setelah membuat test, programmer dapat mem-*push* kode test tersebut dengan tag [RED] sebagai penanda dimulainya pengembangan dengan test.
-   2. **Membuat kode**
+   2. **Membuat kode**, 
       Setelah membuat unit test, programmer akan mulai menyusun kode untuk menyukseskan unit test. Kode yang dibuat harus seminimum mungkin yang berfokus pada tujuannya, yaitu menyukseskan unit test. Setelah membuat kode, programmer dapat mem-*push* kode tersebut dengan tag [GREEN] sebagai penanda berhasilnya menyukseskan test.
-   3. **Melakukan refactor**
+   3. **Melakukan refactor**, 
       Setelah membuat unit test dan kode, programmer dapat melakukan refactor terhadap unit test dan kode yang telah dibuat apabila ada hal-hal yang terlewat atau ada hal-hal yang ingin di-*improve*. Proses ini dapat ditandai dengan tag [REFACTOR].
 
 ## Panduan Pengimplementasian TDD
@@ -28,7 +28,7 @@ class Dosen(models.Model)
 ```
 
 Tahap-tahap yang akan dilakukan dalam pembuatan fungsi.
-1. **Membuat test**
+1. **Membuat test**,
    Dalam membuat unit test, pikirkan apa yang akan dibutuhkan dalam fungsi, contoh pada kasus ini parameter yang dibutuhkan adalam nama dan nip karena kedua hal tersebut merupakan data yang dibutuhkan untuk membuat instance Dosen dan contoh nilai return yang dapat digunakan adalah instance dari Dosen tersebut. Selain itu, pikirkan apa yang akan di-test untuk fungsi tersebut, pada kasus ini contohnya adalah testing *value* yang ada pada setiap attribute dari dosen. Berikut ini merupakan contoh kode testnya.
    ```
    class DosenTest(TestCase)
@@ -41,7 +41,7 @@ Tahap-tahap yang akan dilakukan dalam pembuatan fungsi.
    ```
    Setelah membuat test, lakukanlah `git push` untuk mem-*push kode* ke remote repository. Berikan tag [RED] pada commit message.
 
-2. **Membuat kode**
+2. **Membuat kode**, 
    Setelah membuat test, rancanglah kode yang akan dibuat. Berikut ini merupakan contoh kode implementasi.
    ```
    def createDosen(nama, nip):
