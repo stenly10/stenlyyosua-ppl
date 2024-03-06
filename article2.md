@@ -7,7 +7,7 @@ Selain GitLab berguna sebagai remote repository dari project, kita juga dapat me
 
 ## Contoh Kerjasama dalam GitLab
 ### Pembuatan *Merge Request*
-Pada bagian ini, akan dicontohkan cara membuat *merge request* terlebih dahulu. Hal ini dapat dilakukan dengan memilih menu Code->Merge requests yang terletak pada sidebar. [create]({{site.baseurl}}/assets/article2/Screenshot+2024-03-06+084329)
+Pada bagian ini, akan dicontohkan cara membuat *merge request* terlebih dahulu. Hal ini dapat dilakukan dengan memilih menu Code->Merge requests yang terletak pada sidebar. [create]({{site.baseurl}}/assets/article2/gambar1.png)
 
 Setelah itu, pilih New merge request dan pilih source dan target branch. Setelah itu tekan *Compare branches and continue*. Halaman akan berganti ke halaman pembuatan *merge request*. Pada halaman tersebut. Isilah judul dari *merge request* dan hal-hal lainnya yang diinginkan, seperti deskripsi MR, *assignees*, *reviewers*, dll. Setelah mengisi hal-hal yang diinginkan, tekan *Create merge request* dan akan terbuat *merge request* baru.
 
