@@ -10,8 +10,11 @@ Selain GitLab berguna sebagai remote repository dari project, kita juga dapat me
 Pada bagian ini, akan dicontohkan cara membuat *merge request* terlebih dahulu. Hal ini dapat dilakukan dengan memilih menu Code->Merge requests yang terletak pada sidebar. ![create]({{site.baseurl}}/assets/article2/gambar1.png)
 
 Setelah itu, pilih New merge request dan pilih source dan target branch. Setelah itu tekan *Compare branches and continue*. Halaman akan berganti ke halaman pembuatan *merge request*. Pada halaman tersebut. Isilah judul dari *merge request* dan hal-hal lainnya yang diinginkan, seperti deskripsi MR, *assignees*, *reviewers*, dll. Setelah mengisi hal-hal yang diinginkan, tekan *Create merge request* dan akan terbuat *merge request* baru.
+![compare]({{site.baseurl}}/assets/article2/gambar2.png)
+
 
 Berikut ini merupakan contoh *merge request* yang sudah terbentuk.
+![mr]({{site.baseurl}}/assets/article2/gambar3.png)
 
 ### Komunikasi dalam *Merge Request*
 Setelah terbentuknya MR, kita dapat memulai membuat komentar terhadap MR. Hal ini dapat dilakukan dengan mengisi kolom komentar yang ada pada halaman MR.
@@ -19,8 +22,10 @@ Setelah terbentuknya MR, kita dapat memulai membuat komentar terhadap MR. Hal in
 Komentar yang telah dibuat akan ditanggapi oleh pembuat MR dengan menulis reply pada komentar.
 
 Setelah komentar telah ditanggapi, pembuat MR dapat menekan tombol resolve thread yang menandakan sudah dilakukannya perubahan untuk menyesuaikan dengan komentar. Berikut ini merupakan contoh komunikasi dalam *merge request*.
+![resolve]({{site.baseurl}}/assets/article2/gambar4.png)
 
 Saat merasa MR yang dilakukan oleh teman kita sudah baik, kita dapat memberikan approval dengan menekan tombol Approve.
+![approve]({{site.baseurl}}/assets/article2/gambar5.png)
 
 Pada MR milik kita, apabila semua komentar telah di-*resolved*, kita dapat menekan tombol merge untu melakukan merge dengan branch yang kita tuju.
 
