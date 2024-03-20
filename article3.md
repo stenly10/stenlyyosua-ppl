@@ -34,3 +34,12 @@ Method save_additional_data berfungsi untuk menyimpan informasi-informasi tambah
 Untuk OOP, penulis mengimplementasikan konsep *inheritance* yang dapat terlihat pada class FormManageRoleDosen.
 ![class1]({{site.baseurl}}/assets/article3/3.png)\
 Class FormManageRoleDosen ini berfungsi untuk membuat form dan validasi data untuk mengelola role dosen. Konsep *inheritance* dapat terlihat pada parameter dari class tersebut, yaitu meng-*extend* class forms.Form. Dengan memanfaatkan konsep ini, kita dapat membuat form menggunakan basis dari form milik django sehingga lebih mudah untuk dikembangkan dan digunakan, terutama method is_valid bawaan django form.
+
+## Penutup
+SOLID *principle* merupakan salah satu prinsip yang penting untuk diimplementasikan agar dapat mengembangkan kode yang lebih baik. Penerapan prinsip ini mungkin akan sedikit sulit untuk pertama kali, tetapi tetaplah belajar sehingga dapat terbiasa dalam penerapannya. OOP merupakan paradigma yang penting digunakan khususnya apabila bahasa pemrograman yang kita gunakan mendukung untuk paradigma tersebut. Dengan OOP, kita dapat mengembangkan program yang lebih baik dengan berbasis objek.
+
+## Referensi
+1. https://revou.co/kosakata/oop
+2. https://www.bmc.com/blogs/solid-design-principles/#:~:text=SOLID%20is%20a%20popular%20set,principle%2C%20and%20dependency%20inversion%20principle.
+3. https://gitlab.cs.ui.ac.id/ppl-fasilkom-ui/2024/kelas-b/ppi/ppi/-/commit/5d82450551e6c26551f462af0806d6f8cec5fe7c?view=inline
+4. https://gitlab.cs.ui.ac.id/ppl-fasilkom-ui/2024/kelas-b/ppi/ppi/-/commit/a53bd4429fb75e9c64c832f05241d3d2b9c99e15
