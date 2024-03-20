@@ -21,5 +21,16 @@ SOLID *principle* merupakan salah satu prinsip yang dapat digunakan sebagai pedo
 ## Pengertian *Object-Oriented Programming*
 *Object-oriented programming* (OOP) adalah suatu paradigma pemrograman yang berorientasi pada konsep objek. Kita sendiri mungkin sudah sangat mengenal dengan paradigma pemrograman ini, yaitu saat kita membuat objek dari class dan menerapkan konsep-konsep seperti *polimorphism* dan *abstraction*. Beberapa bahasa pemrograman mengadaptasi paradigma ini, contohnya adalah pada Python dan Java.
 
+## Implementasi SOLID *Principle* dan OOP
+Pada bagian ini, penulis akan mencontohkan pengimplementasian SOLID *principle* pada commit proyek PPI.
 
+### SOLID Principle
+Untuk SOLID *principle*, penulis mengimplementasikan *single responsibility principle*, yaitu pada helper method save_additional_information dan save_dosen_tambahan.\
+![fungsi1]({{site.baseurl}}/assets/article3/1.png)\
+![fungsi2]({{site.baseurl}}/assets/article3/2.png)
+Method save_additional_information berfungsi untuk menyimpan informasi-informasi tambahan yang dibutuhkan pada model Pi, sedangkan method save_dosen_tambahan berfungsi untuk menyimpan dosen pembimbing lebih dari 1. Kedua method ini merupakan bentuk penerapan *single responsibility principle* karena kedua method ini memiliki tanggung jawabnya masing-masing. Penerapan ini memudahkan apabila ada informasi lainnya yang ingin ditambahakan sehingga tidak merusak django views yang sudah baik.
 
+### OOP
+Untuk OOP, penulis mengimplementasikan konsep *inheritance* yang dapat terlihat pada class FormManageRoleDosen.
+![class1]({{site.baseurl}}/assets/article3/3.png)\
+Class FormManageRoleDosen ini berfungsi untuk membuat form dan validasi data untuk mengelola role dosen. Konsep *inheritance* dapat terlihat pada parameter dari class tersebut, yaitu meng-*extend* class forms.Form. Dengan memanfaatkan konsep ini, kita dapat membuat form menggunakan basis dari form milik django sehingga lebih mudah untuk dikembangkan dan digunakan, terutama method is_valid bawaan django form.
