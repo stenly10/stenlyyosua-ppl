@@ -25,10 +25,10 @@ SOLID *principle* merupakan salah satu prinsip yang dapat digunakan sebagai pedo
 Pada bagian ini, penulis akan mencontohkan pengimplementasian SOLID *principle* pada commit proyek PPI.
 
 ### SOLID Principle
-Untuk SOLID *principle*, penulis mengimplementasikan *single responsibility principle*, yaitu pada helper method save_additional_information dan save_dosen_tambahan.\
+Untuk SOLID *principle*, penulis mengimplementasikan *single responsibility principle*, yaitu pada helper method save_additional_data dan save_dosen_tambahan.\
 ![fungsi1]({{site.baseurl}}/assets/article3/1.png)\
 ![fungsi2]({{site.baseurl}}/assets/article3/2.png)\
-Method save_additional_information berfungsi untuk menyimpan informasi-informasi tambahan yang dibutuhkan pada model Pi, sedangkan method save_dosen_tambahan berfungsi untuk menyimpan dosen pembimbing lebih dari 1. Kedua method ini merupakan bentuk penerapan *single responsibility principle* karena kedua method ini memiliki tanggung jawabnya masing-masing. Penerapan ini memudahkan apabila ada informasi lainnya yang ingin ditambahakan sehingga tidak merusak django views yang sudah baik.
+Method save_additional_data berfungsi untuk menyimpan informasi-informasi tambahan yang dibutuhkan pada model Pi, sedangkan method save_dosen_tambahan berfungsi untuk menyimpan dosen pembimbing lebih dari 1. Kedua method ini merupakan bentuk penerapan *single responsibility principle* karena kedua method ini memiliki tanggung jawabnya masing-masing. Penerapan ini memudahkan apabila ada informasi lainnya yang ingin ditambahakan sehingga tidak merusak django views yang sudah baik.
 
 ### OOP
 Untuk OOP, penulis mengimplementasikan konsep *inheritance* yang dapat terlihat pada class FormManageRoleDosen.
